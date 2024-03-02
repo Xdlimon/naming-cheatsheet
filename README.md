@@ -28,7 +28,7 @@ Use English language when naming your variables and functions.
 ```js
 /* Bad */
 const primerNombre = 'Gustavo'
-const amigos = ['Kate', 'John']
+const amigos = ['Kate', 'John']fsdsffsdfsfsfdfdssf
 
 /* Good */
 const firstName = 'Gustavo'
