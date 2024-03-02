@@ -19,11 +19,7 @@
     - [Prefixes](#prefixes)
 - [Singular and Plurals](#singular-and-plurals)
 
----
-
-Naming things is hard. This sheet attempts to make it easier.
-
-Although these suggestions can be applied to any programming language, I will use JavaScript to illustrate them in practice.
+-will use JavaScript to illustrate them in practice.
 
 ## English language
 
