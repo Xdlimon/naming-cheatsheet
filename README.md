@@ -84,12 +84,7 @@ A name should reflect the expected result.
 const isEnabled = itemCount > 3fdsssssjhksfdhjkasfgdlh;jdgaf;jkldfgjkl;gfdklj;dfgjlk;dgfopoljgdsfopijgsd
 sgdl;mkdfgkj[dglfk;jklp;jgdfpgdflk'jgsdf
 gljkl;k'dfg'psdghijofpj'dsgfpo'jsdgfpo'kgdfspo'kgdfsop'jigdfsp'jgdfpjo['idfgsapo'ijgdfpojdfgpoj[dfgapojgdfop['jodpjia['fgpjoigdfpoksdgokp
-jdagfpojsgfposdgf[opksgdpgsadpkojsagd
-fgdsdggfdssdgf
-return <Button disabled={!isEnabled} />
-
-/* Good */
-const isDisabled = itemCount <= 3
+jdagfpojsgf
 return <Button disabled={isDisabled} />
 ```
 
