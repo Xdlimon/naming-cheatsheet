@@ -23,7 +23,7 @@
 
 ## English language
 
-Use English language when naming your variables and functions.
+Use English language when naming your variablesfdsfsd and functions.
 
 ```js
 /* Bad */
@@ -60,52 +60,7 @@ const should_update = true
 A name must be _short_, _intuitive_ and _descriptive_:
 
 - **Short**. A name must not take long to type and, therefore, remember;
-- **Intuitive**. A name must read naturally, as close to the common speech as possible;
-- **Descriptive**. A name must reflect what it does/possesses in the most efficient way.
 
-```js
-/* Bad */
-const a = 5 // "a" could mean anything
-const isPaginatable = a > 10 // "Paginatable" sounds extremely unnatural
-const shouldPaginatize = a > 10 // Made up verbs are so much fun!
-
-/* Good */
-const postCount = 5
-const hasPagination = postCount > 10
-const shouldPaginate = postCount > 10 // alternatively
-```
-
-## Avoid contractions
-
-Do **not** use contractions. They contribute to nothing but decreased readability of the code. Finding a short, descriptive name may be hard, but contraction is not an excuse for not doing so.
-
-```js
-/* Bad */
-const onItmClk = () => {}
-
-/* Good */
-const onItemClick = () => {}
-```
-
-## Avoid context duplication
-
-A name should not duplicate the context in which it is defined. Always remove the context from a name if that doesn't decrease its readability.
-
-```js
-class MenuItem {
-  /* Method name duplicates the context (which is "MenuItem") */
-  handleMenuItemClick = (event) => { ... }
-
-  /* Reads nicely as `MenuItem.handleClick()` */
-  handleClick = (event) => { ... }
-}
-```
-
-## Reflect the expected result
-
-A name should reflect the expected result.
-
-```jsx
 /* Bad */
 const isEnabled = itemCount > 3
 return <Button disabled={!isEnabled} />
