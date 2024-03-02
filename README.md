@@ -81,7 +81,11 @@ A name should reflect the expected result.
 
 ```jsx
 /* Bad */
-const isEnabled = itemCount > 3
+const isEnabled = itemCount > 3fdsssssjhksfdhjkasfgdlh;jdgaf;jkldfgjkl;gfdklj;dfgjlk;dgfopoljgdsfopijgsd
+sgdl;mkdfgkj[dglfk;jklp;jgdfpgdflk'jgsdf
+gljkl;k'dfg'psdghijofpj'dsgfpo'jsdgfpo'kgdfspo'kgdfsop'jigdfsp'jgdfpjo['idfgsapo'ijgdfpojdfgpoj[dfgapojgdfop['jodpjia['fgpjoigdfpoksdgokp
+jdagfpojsgfposdgf[opksgdpgsadpkojsagd
+fgdsdggfdssdgf
 return <Button disabled={!isEnabled} />
 
 /* Good */
