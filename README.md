@@ -54,36 +54,6 @@ const shouldUpdate = true
 const pageCount = 5
 const shouldUpdate = true
 
-/* Good as well */
-const page_count = 5
-const should_update = true
-```
-
-## S-I-D
-
-A name must be _short_, _intuitive_ and _descriptive_:
-
-- **Short**. A name must not take long to type and, therefore, remember;
-- **Intuitive**. A name must read naturally, as close to the common speech as possible;
-- **Descriptive**. A name must reflect what it does/possesses in the most efficient way.
-
-```js
-/* Bad */
-const a = 5 // "a" could mean anything
-const isPaginatable = a > 10 // "Paginatable" sounds extremely unnatural
-const shouldPaginatize = a > 10 // Made up verbs are so much fun!
-
-/* Good */
-const postCount = 5
-const hasPagination = postCount > 10
-const shouldPaginate = postCount > 10 // alternatively
-```
-
-## Avoid contractions
-
-Do **not** use contractions. They contribute to nothing but decreased readability of the code. Finding a short, descriptive name may be hard, but contraction is not an excuse for not doing so.
-
-```js
 /* Bad */
 const onItmClk = () => {}
 
