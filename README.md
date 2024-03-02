@@ -19,20 +19,16 @@
     - [Prefixes](#prefixes)
 - [Singular and Plurals](#singular-and-plurals)
 
----
-
-Naming things is hard. This sheet attempts to make it easier.
-
-Although these suggestions can be applied to any programming language, I will use JavaScript to illustrate them in practice.
+-will use JavaScript to illustrate them in practice.
 
 ## English language
 
-Use English language when naming your variables and functions.
+Use English language when naming your variablesfdsfsd and functions.
 
 ```js
 /* Bad */
 const primerNombre = 'Gustavo'
-const amigos = ['Kate', 'John']
+const amigos = ['Kate', 'John']fsdsffsdfsfsfdfdssf
 
 /* Good */
 const firstName = 'Gustavo'
